@@ -1,0 +1,31 @@
+{
+  "name": "OOBank",
+  "version": "0.0.0",
+  "description": "Bank Account ",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^1.9.1",
+    "chalk": "^0.5.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0",
+    "sync-prompt": "^0.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.20.1"
+  },
+  "scripts": {
+    "test": "mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marksupalla/OOBank"
+  },
+  "author": "Mark Supalla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marksupalla/OOBank/issues"
+  },
+  "homepage": "https://github.com/marksupalla/OOBank"
+}
